@@ -1,4 +1,4 @@
-android-logo-with-css3-only
+Android Logo with CSS3 Only
 ===========================
 
 Android logo with pure CSS3.
