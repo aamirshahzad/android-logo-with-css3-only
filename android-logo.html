@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Android Logo with CSS</title>
+<style>
+body
+{
+	margin: 0;
+	padding: 0;
+	background: #eee;
+}
+#android-logo
+{
+    margin: 5% auto 0;
+    position: relative;
+    width: 178px;
+}
+#android-logo .head
+{
+    background: #a5c63b;
+    border-radius: 60px 60px 0 0;
+    height: 57px;
+    margin: 0 auto;
+    position: relative;
+    width: 119px;
+}
+#android-logo .head:hover
+{
+	transform: rotate(-5deg) translate(-4px, -4px);
+}
+#android-logo .head .antennas
+{
+	left: 7px;
+    position: absolute;
+    width: 90px;
+}
+#android-logo .head .antennas .left-antenna
+{
+	background: none repeat scroll 0 0 #a5c63b;
+    border-radius: 3px;
+    height: 23px;
+    margin-left: 18px;
+    margin-top: -13px;
+    transform: rotate(-24deg);
+    width: 4px;
+	position: absolute;
+}
+#android-logo .head .antennas .right-antenna
+{
+	background: none repeat scroll 0 0 #a5c63b;
+    border-radius: 3px;
+    height: 23px;
+    margin-left: 18px;
+    margin-top: -13px;
+    transform: rotate(24deg);
+    width: 4px;
+	position: absolute;
+	right: 0;
+}
+#android-logo .head .eyes {
+    margin-left: 28px;
+    position: relative;
+    top: 23px;
+    width: 64px;
+}
+#android-logo .head .left-eye
+{
+	background: #fff;
+    border-radius: 30px;
+    height: 9px;
+    left: 0;
+    position: absolute;
+    width: 9px;
+}
+#android-logo .head .right-eye
+{
+	background: #fff;
+    border-radius: 30px;
+    height: 9px;
+    position: absolute;
+    right: 0;
+    width: 9px;
+}
+#android-logo  .body
+{
+	margin-top: 5px;
+    position: relative;
+    width: 177px;
+}
+#android-logo  .body .belly
+{
+	background: #a5c63b;
+    border-radius: 0 0 13px 13px;
+    height: 100px;
+    margin-left: 29px;
+    width: 119px;
+}
+#android-logo .body .left-arm
+{
+	background: #a5c63b;
+    border-radius: 20px;
+    height: 80px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 25px;
+}
+#android-logo .body .left-arm:hover {
+    transform: rotate(15deg) translate(-6px, 0px);
+}
+#android-logo .body .right-arm
+{
+	background: #a5c63b;
+    border-radius: 20px;
+    height: 80px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+}
+#android-logo .body .right-arm:hover {
+    transform: rotate(-15deg) translate(6px, 0px);
+}
+#android-logo .legs
+{
+	margin: 0 auto;
+    position: relative;
+    width: 75px;
+}
+#android-logo .legs .left-leg
+{
+	background: #a5c63b;
+    border-radius: 0 0 20px 20px;
+    height: 45px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 25px;
+}
+#android-logo .legs .right-leg
+{
+	background: #a5c63b;
+    border-radius: 0 0 20px 20px;
+    height: 45px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 25px;
+}
+</style>
+
+</head>
+
+<body>
+
+<div id="android-logo">
+
+    <div class="head">
+	
+        <div class="antennas">
+			<div class="left-antenna"></div>
+			<div class="right-antenna"></div>
+		</div>
+		
+		<div class="eyes">
+			<div class="left-eye"></div>
+			<div class="right-eye"></div>
+		</div>
+		
+    </div>
+	
+	<div class="body">
+		<div class="left-arm"></div>
+		<div class="belly"></div>
+		<div class="right-arm"></div>
+	</div>
+	
+	<div class="legs">
+		<div class="left-leg"></div>
+		<div class="right-leg"></div>
+	</div>
+	
+</div>
+
+</body>
+</html>
